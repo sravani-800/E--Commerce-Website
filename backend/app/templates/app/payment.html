@@ -1,0 +1,41 @@
+{% extends "app/base.html" %}
+
+{% block title %}Payment{% endblock %}
+
+{% block content %}
+<div class="container mt-5">
+    <h2 class="mb-4">Payment Details</h2>
+    <form id="payment-form" method="POST" action="{% url 'payment' %}" novalidate>
+        {% csrf_token %}
+        <div class="mb-3">
+            <label for="cardNumber" class="form-label">Card Number</label>
+            <input type="text" name="cardNumber" class="form-control {% if errors.cardNumber %}is-invalid{% endif %}" id="cardNumber" value="{{ form_data.cardNumber|default:'' }}" placeholder="1234 5678 9012 3456" required>
+            {% if errors.cardNumber %}
+            <div class="invalid-feedback">{{ errors.cardNumber }}</div>
+            {% endif %}
+        </div>
+        <div class="mb-3">
+            <label for="cardExpiry" class="form-label">Expiry Date (MM/YY)</label>
+            <input type="text" name="cardExpiry" class="form-control {% if errors.cardExpiry %}is-invalid{% endif %}" id="cardExpiry" value="{{ form_data.cardExpiry|default:'' }}" placeholder="MM/YY" required>
+            {% if errors.cardExpiry %}
+            <div class="invalid-feedback">{{ errors.cardExpiry }}</div>
+            {% endif %}
+        </div>
+        <div class="mb-3">
+            <label for="cardCVV" class="form-label">CVV</label>
+            <input type="text" name="cardCVV" class="form-control {% if errors.cardCVV %}is-invalid{% endif %}" id="cardCVV" value="{{ form_data.cardCVV|default:'' }}" placeholder="123" required>
+            {% if errors.cardCVV %}
+            <div class="invalid-feedback">{{ errors.cardCVV }}</div>
+            {% endif %}
+        </div>
+        <div class="mb-3">
+            <label for="cardholderName" class="form-label">Cardholder Name</label>
+            <input type="text" name="cardholderName" class="form-control {% if errors.cardholderName %}is-invalid{% endif %}" id="cardholderName" value="{{ form_data.cardholderName|default:'' }}" placeholder="Full Name" required>
+            {% if errors.cardholderName %}
+            <div class="invalid-feedback">{{ errors.cardholderName }}</div>
+            {% endif %}
+        </div>
+        <button type="submit" class="btn btn-primary w-100 mb-3">Complete Payment</button>
+    </form>
+</div>
+{% endblock %}
