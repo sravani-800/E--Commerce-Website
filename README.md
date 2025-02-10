@@ -22,13 +22,13 @@ Use the following commands in terminal or cmd.
 
 7) python manage.py runserver
 
-<img width="1470" alt="Screenshot 2025-02-0<img width="1470" alt="Screenshot 2025-02-09 at 9 56 09 PM" src="https://github.com/user-attachments/assets/069585cf-e5bb-446a-8bf4-6b5f2aa86ad3" />
+<img width="1470" alt="Screenshot 2025-02-09 at 9 56 09 PM" src="https://github.com/user-attachments/assets/069585cf-e5bb-446a-8bf4-6b5f2aa86ad3" />
 
 <img width="1470" alt="Screenshot 2025-02-09 at 10 00 30 PM" src="https://github.com/user-attachments/assets/f5720918-c958-4371-a98b-fa158ed5b446" />
 
-<img width="1469" alt="Screenshot 2025-02-09<img width="465<img width="1465" alt="Screenshot 2025-02-09 at 9 57 48 PM" src="https://github.com/user-attachments/assets/12290b76-dc6d-43ac-ae10-1be55d30a128" />
+<img width="1465" alt="Screenshot 2025-02-09 at 9 57 48 PM" src="https://github.com/user-attachments/assets/12290b76-dc6d-43ac-ae10-1be55d30a128" />
 
-<img width="1470" alt="Scre<img width="1470" alt="Screenshot 2025-02-09 at 10 00 10 PM" src="https://github.com/user-attachments/assets/4183c860-59e9-47db-bb59-3c9525088355" />
+<img width="1470" alt="Screenshot 2025-02-09 at 10 00 10 PM" src="https://github.com/user-attachments/assets/4183c860-59e9-47db-bb59-3c9525088355" />
 
 <img width="1470" alt="Screenshot 2025-02-09 at 9 57 33 PM" src="https://github.com/user-attachments/assets/665411de-dbee-42c8-bdea-ed922b57c9ba" />
 
