@@ -21,3 +21,4 @@ Use the following commands in terminal or cmd.
 6) check if manage.py file in the following directory
 
 7) python manage.py runserver
+<img width="1470" alt="Screenshot 2025-02-03 at 1 23 48 PM" src="https://github.com/user-attachments/assets/0e498fc1-ec16-45f3-ae1e-cb77ea4b74ce" />
